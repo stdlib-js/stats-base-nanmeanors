@@ -190,6 +190,25 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/stats/base/dnanmeanors`][@stdlib/stats/base/dnanmeanors]: calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.
+-   [`@stdlib/stats/base/meanors`][@stdlib/stats/base/meanors]: calculate the arithmetic mean of a strided array using ordinary recursive summation.
+-   [`@stdlib/stats/base/nanmean`][@stdlib/stats/base/nanmean]: calculate the arithmetic mean of a strided array, ignoring NaN values.
+-   [`@stdlib/stats/base/snanmeanors`][@stdlib/stats/base/snanmeanors]: calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -251,9 +270,17 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+<!-- <related-links> -->
+
 [@stdlib/stats/base/dnanmeanors]: https://github.com/stdlib-js/stats-base-dnanmeanors
 
+[@stdlib/stats/base/meanors]: https://github.com/stdlib-js/stats-base-meanors
+
+[@stdlib/stats/base/nanmean]: https://github.com/stdlib-js/stats-base-nanmean
+
 [@stdlib/stats/base/snanmeanors]: https://github.com/stdlib-js/stats-base-snanmeanors
+
+<!-- </related-links> -->
 
 </section>
 
