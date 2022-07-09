@@ -70,7 +70,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.nanmeanors;
+})();
 })();
 </script>
 ```
@@ -183,6 +185,7 @@ var v = nanmeanors.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-nanmeanors@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -200,6 +203,7 @@ console.log( x );
 var v = nanmeanors( x.length, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -310,13 +314,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanmeanors]: https://github.com/stdlib-js/stats-base-dnanmeanors/tree/umd
+[@stdlib/stats/base/dnanmeanors]: https://github.com/stdlib-js/stats-base-dnanmeanors/tree/umd/tree/umd
 
-[@stdlib/stats/base/meanors]: https://github.com/stdlib-js/stats-base-meanors/tree/umd
+[@stdlib/stats/base/meanors]: https://github.com/stdlib-js/stats-base-meanors/tree/umd/tree/umd
 
-[@stdlib/stats/base/nanmean]: https://github.com/stdlib-js/stats-base-nanmean/tree/umd
+[@stdlib/stats/base/nanmean]: https://github.com/stdlib-js/stats-base-nanmean/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanmeanors]: https://github.com/stdlib-js/stats-base-snanmeanors/tree/umd
+[@stdlib/stats/base/snanmeanors]: https://github.com/stdlib-js/stats-base-snanmeanors/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
