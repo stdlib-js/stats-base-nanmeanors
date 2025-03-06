@@ -170,7 +170,7 @@ var v = nanmeanors.ndarray( N, x, 2, 1 );
 -   If `N <= 0`, both functions return `NaN`.
 -   If every indexed element is `NaN`, both functions return `NaN`.
 -   Ordinary recursive summation (i.e., a "simple" sum) is performant, but can incur significant numerical error. If performance is paramount and error tolerated, using ordinary recursive summation to compute an arithmetic mean is acceptable; in all other cases, exercise due caution.
--   Depending on the environment, the typed versions ([`dnanmeanors`][@stdlib/stats/base/dnanmeanors], [`snanmeanors`][@stdlib/stats/base/snanmeanors], etc.) are likely to be significantly more performant.
+-   Depending on the environment, the typed versions ([`dnanmeanors`][@stdlib/stats/strided/dnanmeanors], [`snanmeanors`][@stdlib/stats/base/snanmeanors], etc.) are likely to be significantly more performant.
 
 </section>
 
@@ -223,7 +223,7 @@ console.log( v );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats-base/dnanmeanors`][@stdlib/stats/base/dnanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/dnanmeanors`][@stdlib/stats/strided/dnanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a double-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.</span>
 -   <span class="package-name">[`@stdlib/stats-base/meanors`][@stdlib/stats/base/meanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array using ordinary recursive summation.</span>
 -   <span class="package-name">[`@stdlib/stats-base/nanmean`][@stdlib/stats/base/nanmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/snanmeanors`][@stdlib/stats/base/snanmeanors]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array, ignoring NaN values and using ordinary recursive summation.</span>
@@ -258,7 +258,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -312,7 +312,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dnanmeanors]: https://github.com/stdlib-js/stats-base-dnanmeanors
+[@stdlib/stats/strided/dnanmeanors]: https://github.com/stdlib-js/stats-strided-dnanmeanors
 
 [@stdlib/stats/base/meanors]: https://github.com/stdlib-js/stats-base-meanors
 
