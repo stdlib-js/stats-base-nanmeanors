@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-12)
+## Unreleased (2025-06-22)
+
+<section class="features">
+
+### Features
+
+-   [`4395438`](https://github.com/stdlib-js/stdlib/commit/43954384edb1bfdfa86731a82df686c08a7ac8bb) - add accessor protocol support and refactor `stats/base/nanmeanors` [(#6493)](https://github.com/stdlib-js/stdlib/pull/6493)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5656](https://github.com/stdlib-js/stdlib/issues/5656)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`4395438`](https://github.com/stdlib-js/stdlib/commit/43954384edb1bfdfa86731a82df686c08a7ac8bb) - **feat:** add accessor protocol support and refactor `stats/base/nanmeanors` [(#6493)](https://github.com/stdlib-js/stdlib/pull/6493) _(by Rahul Kumar, Athan Reines, stdlib-bot, Gururaj Gurram)_
 -   [`95ea592`](https://github.com/stdlib-js/stdlib/commit/95ea592caa0b9a1119bf963061638823011cd323) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`cd6dfed`](https://github.com/stdlib-js/stdlib/commit/cd6dfedfaf5d92a8b79cfbb6592e70d184e78ca4) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`e644a6e`](https://github.com/stdlib-js/stdlib/commit/e644a6ef491f282b46a90b668090533ea9b002b6) - **refactor:** update paths _(by Aayush Khanna)_
@@ -26,10 +49,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Athan Reines
 -   Gururaj Gurram
+-   Rahul Kumar
 
 </section>
 
